@@ -1,0 +1,69 @@
+{
+	"ProduktyA" : [
+	    {
+		    "Samochody" : [
+                { "nazwa": "Audi" },
+                { "nazwa": "Bentley" },
+                { "nazwa": "Bugatti" },
+                { "nazwa": "Buick" },
+                { "nazwa": "Cadillac"},
+                { "nazwa": "Fiat" },
+                { "nazwa": "BMW" },
+                { "nazwa": "Volkswagen" },
+                { "nazwa": "Opel" },
+                { "nazwa": "Mazda"},
+                { "nazwa": "Citroen" }
+            ]
+	    },
+	    {
+		    "Słodycze" : [ 
+                { "nazwa": "Czekolada" }, 
+                { "nazwa": "Cukierki" },
+                { "nazwa": "Żelki" },
+                { "nazwa": "Ciastka" },
+                { "nazwa": "Krakersy" },
+                { "nazwa": "Chrupki kukurydziane"}
+            ]
+	    },
+        {
+			"Owoce" : [
+				{ "nazwa": "Grejpfrut" },
+				{ "nazwa": "Cytryna" },
+				{ "nazwa": "Winogrona" },
+                { "nazwa": "Jabłko" },
+                { "nazwa": "Banan" },
+                { "nazwa": "Mango" }
+			]
+		},
+        {
+			"Pieczywo" : [
+				{ "nazwa": "Bułka" }, 
+				{ "nazwa": "Chleb żytni" },
+				{ "nazwa": "Kajzerka" },
+                { "nazwa": "Grahamka" },
+                { "nazwa": "Mini pizza" },
+                { "nazwa": "Chleb zwykły" }
+            ]
+		},
+	    {   
+		    "Soki" : [ 
+                { "nazwa": "Jupi" }, 
+                { "nazwa": "Kubuś" }, 
+                { "nazwa": "Hoop" },
+                { "nazwa": "Pepsi" },
+                { "nazwa": "CocaCola" },
+                { "nazwa": "7up" },
+                { "nazwa": "Sok Jabłkowy" },
+                { "nazwa": "Sok Pomarańczowy" }
+            ]
+	    },
+        {
+            "Samoloty" : [
+                { "nazwa": "Boeing"},
+                { "nazwa": "Aerocar"},
+                { "nazwa": "Beechcraft"},
+                { "nazwa": "Caproni"}
+            ]
+        }
+	]
+}

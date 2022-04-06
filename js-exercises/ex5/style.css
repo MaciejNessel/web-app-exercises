@@ -1,0 +1,48 @@
+
+div{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    user-select: none;
+}
+div>*{
+    border: #2a2929 1px solid;
+}
+.blue{
+    margin: auto;
+    background: blue;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+.red{
+    position: relative;
+    top:30px;
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.yellow{
+    position: relative;
+    top:20px;
+    background: yellow;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+}
+
+.disable{
+    background: rgb(206, 206, 206);
+}
+.buttons{
+    display: block;
+    margin: auto;
+}
+
+button{
+    cursor: pointer;
+}

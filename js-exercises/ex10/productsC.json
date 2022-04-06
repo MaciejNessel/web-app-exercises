@@ -1,0 +1,46 @@
+{
+	"ProduktyC" : [
+		{
+			"Deskorolki" : [
+				{ "nazwa": "Blind" }, 
+				{ "nazwa": "Fila" }, 
+				{ "nazwa": "PlanB" },
+				{ "nazwa": "Amok" },
+				{ "nazwa": "Tensor" },
+				{ "nazwa": "Kickflip" },
+				{ "nazwa": "Varial" }
+			]
+		},
+		{
+			"Rowery" : [ 
+				{ "nazwa": "Merida" }, 
+				{ "nazwa": "Raymon" },
+				{ "nazwa": "Monteria" }
+			]
+		},
+		{
+			"Soki" : [ 
+				{ "nazwa": "Jupi" }, 
+				{ "nazwa": "Kubuś" }, 
+				{ "nazwa": "Hoop" }
+			]
+		},
+		{
+			"Półprodukty" : [
+				{ "nazwa": "Spaghetti Bolognese" },
+				{ "nazwa": "Spaghetti Carbonara" },
+				{ "nazwa": "Pierogi ruskie" },
+				{ "nazwa": "Pierogi z mięsem" },
+				{ "nazwa": "Pierogi ze szpinakiem" },
+				{ "nazwa": "Kotlet wieprzowy"} 
+			]
+		},
+		{
+			"Owoce" : [
+				{ "nazwa": "Jabłko" },
+				{ "nazwa": "Banan" },
+				{ "nazwa": "Pomarańcza" }
+			]
+		}
+	]	
+}

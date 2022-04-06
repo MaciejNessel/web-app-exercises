@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zombie Game</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+	<div class='life'></div>
+	<div class="starting"></div>
+	<div class="hitsRow"></div>
+
+    <div class="board">
+        <div class="currentNick"></div>
+        <div class="startingField">
+            <p class="headText">Enter nick name:</p>
+            <div id="nickError" class=".HeadText"></div>
+            <label for="InsertNickName"></label><input type="text" id="InsertNickName" maxlength="25">
+            <button id="sendNickButton">OK</button>
+        </div>
+
+        <div class="zombieContainer"></div>
+        <div class="mousePointer"></div>
+        <div class="currentScore">00000</div>
+
+        <div class="endingField">
+            <p class="headText">Your score:</p>
+            <p id="endingScore"></p>
+            <p class="currentNick"></p>
+            <p class="resultsRanking"></p>
+            <button id="restartButton">Try again</button>
+            <button id="newGameButton">New Game</button>
+        </div>
+    </div>
+</body>
+</html>

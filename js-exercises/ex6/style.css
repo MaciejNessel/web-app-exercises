@@ -1,0 +1,83 @@
+body{
+    margin: 5vw;
+    background: #f6f9ff;
+}
+
+/* Form to input new data */
+#addForm{
+    margin: 30px 0 10px 0;
+    padding: 20px 40px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: Arial, Serif, serif;
+    color: #969696;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.addField{
+    color: #f50000;
+    font-size: 14px;
+}
+
+#add{
+    margin-top:50px;
+    margin-bottom: 20px;
+    background: #008102;
+    color: #fff;
+    width: 18vw;
+    height: 37px;
+    border-radius: 5px;
+}
+#add:hover{
+    background: #008d02;
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+input[type=text]{
+    width: 30vw;
+    height: 35px;
+    border: 1px solid #e8e8e8;
+    transition: width 1s ease-in-out;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid #d0d0d0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+#numberList>*{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    font-family: Arial, serif;
+}
+
+.item{
+    padding: 10px 40px 10px 40px;
+    background: #fff;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.deleteBtn{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: #008d02;
+    border-radius: 10px;
+
+}
+
+.deleteBtn:hover{
+    background: #008d02;
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+.imgBtn{
+    display: block;
+    margin: 10px auto auto auto;
+}

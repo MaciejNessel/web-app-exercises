@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #232323;
+    color: #ffffff;
+    font-family: Arial, serif;
+}
+
+@media (min-width: 800px){
+    .checkbox {
+        display: none;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2d2c2c;
+    }
+
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    li a:hover {
+        background-color: #131313;
+        color: #ffb14d;
+    }
+
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+    }
+    nav input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+    nav span {
+        display: block;
+        background: #ffffff;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.5,0.1,1.0),
+        background 0.5s cubic-bezier(0.77,0.5,0.1,1.0),
+        opacity 0.55s ease;
+    }
+    nav span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    nav input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #ffffff;
+    }
+    nav input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    nav input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    ul {
+        position: absolute;
+        width: 250px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #2d2c2c;
+        list-style-type: none;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.5,0.1,1.0);
+    }
+    ul li {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    nav input:checked ~ ul {
+        transform: none;
+    }
+    a:hover{
+        color: #ffb14d;
+    }
+}

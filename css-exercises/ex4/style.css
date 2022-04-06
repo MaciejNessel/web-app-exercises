@@ -1,0 +1,84 @@
+
+img {
+    height: auto;
+    max-width: 100%;
+    display:block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Century Gothic', serif;
+    margin: 3%;
+}
+
+h2{
+    font-family: 'Century Gothic', serif;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-bottom: 0;
+    color: #F55D4E;
+    font-family: 'Century Gothic', serif;
+}
+
+p{
+    font-family: 'Century Gothic', serif;
+}
+
+hr{ display: block; height: 1px;
+    border: 0; border-top: 1px solid lightgray;
+    margin: 1em ; padding: 0; }
+
+button{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #F57161 ;
+    border: #F57161;
+    width: 100px;
+    line-height: 40px;
+    font-family: Arial, serif;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #F55D4E;
+    color: #ffffff;
+}
+
+.box{
+    border: 2px double #c4c4c4;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #cecece;
+    max-width: 360px;
+    width: auto;
+}
+
+.box>h2, h3, .footerbox, p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 0;
+}
+
+.social{
+    float:right;
+    margin-bottom: 3%;
+}
+
+.social>*{
+        float: left;
+        margin: 3px;
+    }
+
+

@@ -1,0 +1,54 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+nav{
+    margin-top:50px;
+}
+
+nav {
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    position: relative;
+    margin-left: 20px;
+    color: #5f606c;
+    padding: 10px;
+    transition-property: background;
+    transition-duration: 0.1s;
+
+}
+
+ul li a:hover{
+    color: #131313;
+    background: #efeeee;
+}
+
+button {
+    display: grid;
+    all: unset;
+    background: linear-gradient(to right, hsl(136, 61%, 51%), hsl(192, 67%, 46%));
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.5s;
+
+}
+button:hover{
+    background: linear-gradient(to right, hsla(136, 61%, 51%, 0.89), hsla(192, 67%, 46%, 0.92));
+}

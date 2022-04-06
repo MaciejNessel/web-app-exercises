@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section>*{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    transition: flex-grow 0.5s ease-in-out;
+    display: block;
+
+}
+
+section :hover{
+    flex-grow: 6;
+}
+
+img{
+    max-height: 100vh;
+    width: auto;
+}
+
+
+

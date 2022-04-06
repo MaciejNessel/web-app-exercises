@@ -1,0 +1,56 @@
+{
+	"ProduktyB" : [
+		{
+			"Samochody" : [
+				{ "nazwa": "Fiat" }, 
+				{ "nazwa": "Mercedes" },
+				{ "nazwa": "Dacia" },
+				{ "nazwa": "Daf" },
+				{ "nazwa": "Ferrari" },
+				{ "nazwa": "Gaz"},
+				{ "nazwa": "GMC" },
+				{ "nazwa": "Hyundai" },
+				{ "nazwa": "Infiniti" },
+				{ "nazwa": "Iveco" },
+				{ "nazwa": "Jeep"},
+				{ "nazwa": "Jaguar"},
+				{ "nazwa": "JMC" },
+				{ "nazwa": "Lexus" },
+				{ "nazwa": "Maserati" },
+				{ "nazwa": "Maybach" },
+				{ "nazwa": "MG"}
+			]
+		},
+		{
+			"Rowery" : [ 
+				{ "nazwa": "Kross" }, 
+				{ "nazwa": "Merida"},
+				{ "nazwa": "Scott" },
+				{ "nazwa": "Trek"},
+				{ "nazwa": "Superior" },
+				{ "nazwa": "B'Twin"}
+			]
+		},
+		{
+			"Soki" : [ 
+				{ "nazwa": "Jupi" }, 
+				{ "nazwa": "Kubuś" }
+			]
+		},
+		{
+			"Pieczywo" : [
+				{ "nazwa": "Bułka" }, 
+				{ "nazwa": "Chleb żytni" },
+				{ "nazwa": "Bagietka" }, 
+				{ "nazwa": "Kajzerka" }
+			]
+		},
+		{
+			"Warzywa" : [
+				{ "nazwa": "Marchewka" },
+				{ "nazwa": "Ogórek" },
+				{ "nazwa": "Pietruszka" }
+			]
+		}
+	]
+}

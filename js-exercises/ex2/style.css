@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: #e7e7e7;
+
+}
+#photo{
+    margin: auto;
+    width: 50vw;
+    height: auto;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    box-shadow: 0 0 20px 10px #969696
+
+}
+
+#changePhoto{
+    margin: 50px auto auto auto;
+    width: 200px;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+}

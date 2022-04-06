@@ -1,0 +1,146 @@
+html {
+    font-size: 63%;
+}
+
+body {
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.box{
+    position: relative;
+    width: 32rem;
+    height: 50rem;
+}
+
+.boxin {
+    height: 50rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.back {
+
+    transform: rotateY(180deg);
+}
+
+.backfirst {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+.backsecond {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.box:hover .front {
+    transform: rotateY(-180deg);
+}
+.box:hover .back {
+    transform: rotateY(0);
+}
+
+img {
+    height: 23rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+h4{
+    font-family: 'Century Gothic',serif ;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 12rem;
+    right: 1rem;
+    width: 75%;
+}
+
+.hfirst {
+    padding: 0.5rem;
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+}
+.hsecond {
+    padding: 0.5rem;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+}
+
+
+.details {
+    padding: 1rem 3rem 3rem 3rem;
+}
+.details ul {
+    padding: 0;
+    list-style: none;
+}
+.details ul li {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, serif;
+    color: #7a7b85;
+    padding: 1.2rem;
+}
+.details ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.reverseitems {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+.reverseitems>*{
+    font-family: Arial, serif;
+}
+
+.backdetails {
+    color: #fff;
+    margin-bottom: 8rem;
+}
+
+.only {
+    font-family: 'Century Gothic', serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;}
+.price {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 6rem;
+ }
+
+.reservation{
+    color: #7b7f8d;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+}
+
+button{
+    max-width: 350px;
+    border-radius: 50px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+}
+
+button:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+    cursor: pointer;
+}
+

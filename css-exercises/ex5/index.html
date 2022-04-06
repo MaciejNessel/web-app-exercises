@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria zdjęć - hover</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+    <h1>Galeria zdjęć - hover</h1>
+    <div class="container">
+        <div class="img-container">
+            <img srcset="../images/medium/8.jpg 640w, ../images/large/8.jpg 1280w"  sizes="(max-width: 640px) 640w, 1280" src="../images/large/8.jpg"  alt="" >
+            <div class="overlay1">
+                <div class="text">Informacja pojawiająca się na zdjęciu</div>
+            </div>
+        </div>
+        <div class="img-container">
+            <img srcset="../images/medium/9.jpg 640w, ../images/large/9.jpg 1280w" sizes="(max-width: 640px) 640px, 1280px" src="../images/large/9.jpg" alt="">
+            <div class="overlay2">
+                <img class="icon" src="../images/icon/lupa.png" alt="lupa" >
+                <div class="text">zobacz album</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
